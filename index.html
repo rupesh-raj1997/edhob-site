@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdHob</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+
+        .bg {
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(180deg, #0C0C0C 0%, #4E222F 100%);
+            background-position: center;
+            z-index: -100;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        .card {
+            background: rgba(40, 186, 186, 0.8);
+            box-shadow: inset 0px 4px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 70px;
+            width: max(20rem, 60vw);
+            height: max(20rem, 80vh);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            width: 100%;
+            height: auto;
+            align-self: center;
+        }
+
+        .motto {
+            width: auto;
+            height: 1rem;
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="card">
+            <img class="logo" src="/public/logo.png" alt="EdHob Logo" />
+            <img class="motto" src="/public/motto.png" alt="EdHob Motto" />
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
